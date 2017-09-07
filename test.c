@@ -1,17 +1,23 @@
 #include<stdio.h>
+#include<stdlib.h>
+void main(int argc, char * argv[]) {
+   int i,a,b, sum = 0,diff=0;
  
-int main()
-{
-   int a, b, c;
+   if (argc != 3) 
+	{
+      	printf("You have forgot to type numbers.");
+      	exit(1);
+   	}
+   for (i=1;i<argc;i++)
+	{	
+   	a=atoi(argv[1]);
+   	b=atoi(argv[2]);
+	}
+   sum = a + b;
+   printf("The sum is :%d \n",sum);
+   diff = a - b;
+   printf("\nDifference of the entered numbers:%d\n",diff);
  
-   printf("Enter two numbers to add\n");
-   scanf("%d%d",&a,&b);
- 
-   c = a + b;
- 
-   printf("Sum of entered numbers = %d\n",c);
- 
-   return 0;
 }
 
 
