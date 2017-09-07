@@ -11,7 +11,7 @@ void main(int argc, char * argv[]) {
    for (i=1;i<argc;i++)
 	{	
    	a=atoi(argv[1]);
-   	b=atoi(argv[2]);
+   	b=atoi(argv[2])
 	}
    sum = a + b;
    printf("The sum is :%d \n",sum);
