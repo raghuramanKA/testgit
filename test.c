@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 void main(int argc, char * argv[]) {
-   int i,a,b, sum = 0,diff=0;
+   int i,a,b, sum = 0,diff=0,prod=0;
  
    if (argc != 3) 
 	{
@@ -17,6 +17,8 @@ void main(int argc, char * argv[]) {
    printf("The sum is :%d \n",sum);
    diff = a - b;
    printf("\nDifference of the entered numbers:%d\n",diff);
+   prod = a * b;
+   printf("\nProduct of the entered numbers:%d\n",prod);
  
 }
 
